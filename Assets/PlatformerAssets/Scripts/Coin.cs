@@ -7,7 +7,7 @@ public class Coin : MonoBehaviour
 
     // Variable to let us add to score
     //public so we can drag & drop
-//    public Score scoreObject;
+   public Score scoreObject;
 
     // Variable to hold the coins point value 
     //public so we can change in editor 
@@ -37,7 +37,7 @@ public class Coin : MonoBehaviour
         {
             //We hit the player
             // Add to the score based on value
- //           scoreObject.AddScore(coinValue);
+           scoreObject.AddScore(coinValue);
             //Destory the gameObject that is attached to the script 
             Destroy(gameObject);
         }
