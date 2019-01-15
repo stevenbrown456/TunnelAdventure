@@ -71,11 +71,10 @@ public class PlayerScript : MonoBehaviour
             // Give the velocity to the rigidbody
             physicsBody.velocity = velocity;
         }
-
+        
     }
 }
- 
-    
+
 
 
 
